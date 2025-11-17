@@ -1,0 +1,13 @@
+{
+  "name": "product-api-data-seeder",
+  "version": "1.0.0",
+  "description": "Data seeding script for Product API",
+  "main": "seed-data.js",
+  "scripts": {
+    "seed": "node seed-data.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0"
+  }
+}
